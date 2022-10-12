@@ -1,10 +1,11 @@
 #include "sort.h"
 
 /**
-  * shell_sort - A function tat sorts an array usin shell algorithm.
-  * @array: The array to sort.
-  * @size: The length of the array.
-  * Return: Nothing.
+  * shell_sort - Sort an array of integers in ascending order using the
+  *              Shell sort algorithm, using the knuth sequence
+  * @array: The array to sort
+  * @size: The length of the array
+  * Return: Nothing
   */
 void shell_sort(int *array, size_t size)
 {
